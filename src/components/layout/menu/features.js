@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import menuicon from "../header/assets/images/Toggle.svg";
+
 import crosstoggle from "../header/assets/images/crosstoggle.svg";
 export default function Features({ heading, info, page, toggleclose }) {
   return (
