@@ -4,8 +4,8 @@ import { Row, Col } from "react-bootstrap";
 import { Link } from "gatsby";
 //all coomponent imports
 import Social from "./allLogos/allLogo.js";
-import MenuItem from "./menuItems/menuItems.js";
-import MediaApp from "./MediaApp/MediaApp.js";
+import MenuItem from "./menuItems/menuitems.js";
+import MediaApp from "./mediaApp/mediaApp.js";
 
 export default function Footer() {
   return (

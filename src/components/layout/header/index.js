@@ -5,7 +5,7 @@ import "./assets/css/style.scss";
 import { Navbar, Nav, Form } from "react-bootstrap";
 import logo from "./assets/images/mainlogo.png";
 import Search from "./search/search.js";
-import menuicon from "./assets/images/Toggle.svg";
+import menuicon from "./assets/images/toggle.svg";
 import crosstoggle from "./assets/images/crosstoggle.svg";
 import { toggleMenu } from "../../../state/app.js";
 import { useDispatch, useSelector } from "react-redux";

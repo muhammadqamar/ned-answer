@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // component export
 import Header from "./header/index";
 import Footer from "./footer/index";
-import Join from "./joinforFree/joinforFree";
+import Join from "./joinforFree/joinForFree";
 import "./assets/css/layout.scss";
 import Menu from "./menu/menu.js";
 import { useStaticQuery, graphql } from "gatsby";
