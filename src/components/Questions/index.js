@@ -4,7 +4,7 @@ import PopularQuestions from "../Home/popularQuestions";
 import { Row, Col } from "react-bootstrap";
 import "./assets/css/style.scss";
 
-import Categories from "./Categories/Categories.js";
+import Categories from "./Categories/categories.js";
 import Post from "./questionPost/post.js";
 import tag from "./assets/images/law.png";
 import diet from "./assets/images/diet.png";

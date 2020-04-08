@@ -6,8 +6,6 @@ import playstore from "../assets/images/playstore.png";
 import Features from "./features.js";
 import FotterLink from "./links.js";
 import { Link } from "gatsby";
-import menuicon from "../header/assets/images/toggle.svg";
-import crosstoggle from "../header/assets/images/crosstoggle.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleMenu } from "../../../state/app.js";
 //main functions
