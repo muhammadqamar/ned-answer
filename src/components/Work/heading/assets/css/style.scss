@@ -1,0 +1,45 @@
+//styling for Expert
+.work {
+  margin-top: 90px;
+  @media (max-width: 991px) {
+    margin-top: 65px;
+  }
+
+  font-family: "GalanoGrotesque";
+  .work-heading {
+    padding: 75px 15px 117px;
+    text-align: center;
+    background: #fc5039;
+    @media screen and (max-width: 767px) {
+      padding: 50px 15px;
+    }
+    .content {
+      max-width: 1300px;
+      margin: 0 auto;
+      h2 {
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 15px;
+        @media screen and (max-width: 767px) {
+          font-size: 35px;
+          margin-bottom: 10px;
+        }
+      }
+      p {
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 0;
+        max-width: 650px;
+        width: 100%;
+        margin: 0 auto;
+        @media screen and (max-width: 767px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+//styling for PopularQuestions
+.PopularQuestions {
+  font-family: "GalanoGrotesque";
+
+  .content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 58px 25px !important;
+
+    h6 {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1.6px;
+      color: #404040;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-family: "GalanoGrotesque-SemiBold";
+    }
+    a.morelink {
+      font-family: CircularStd;
+      font-size: 20px;
+      font-weight: bold;
+      color: #013eff;
+      text-align: center;
+      display: block;
+      padding-top: 100px;
+
+      img {
+        margin-left: 12px;
+      }
+    }
+
+    .slider-box {
+      background-color: #f1f6f9;
+      padding: 25px;
+      border-right: 12px solid #fff;
+      display: inline-block;
+      border-radius: 10px;
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #283465;
+      }
+
+      .post {
+        padding-top: 10px;
+        img {
+          width: 50px;
+          float: left;
+        }
+
+        h4 {
+          font-size: 12px;
+          font-weight: 500;
+          color: #283465;
+          padding: 18px 0px 0px 60px;
+          font-family: "GalanoGrotesque-SemiBold";
+        }
+
+        p {
+          clear: both;
+          font-size: 16px;
+          font-weight: 400;
+          color: #283465;
+          padding-top: 20px;
+        }
+
+        img.thumbnail {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .slider-box {
+      border-right: none !important;
+    }
+    a.morelink {
+      font-size: 16px !important;
+      padding-top: 20px !important;
+    }
+  }
+}

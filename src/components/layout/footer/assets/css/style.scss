@@ -1,0 +1,138 @@
+//styling for footter
+.mainfooter {
+  background-color: #ffffff;
+  font-family: "GalanoGrotesque";
+
+  .content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    padding: 60px 0px;
+
+    .logosection {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      .mainlogo {
+        flex-grow: 2;
+
+        img {
+          width: 180px;
+        }
+      }
+
+      .sociallinks {
+        padding-left: 10px;
+
+        img {
+          width: 35px;
+          float: left;
+          margin-right: 15px;
+        }
+      }
+    }
+
+    ul {
+      padding-left: 0;
+
+      li {
+        list-style: none;
+
+        a {
+          font-size: 18px;
+          font-weight: normal;
+
+          line-height: 1.67;
+          letter-spacing: normal;
+          color: #5d5d5d;
+        }
+      }
+    }
+
+    ul.bold-items {
+      flex-grow: 2;
+
+      li a {
+        color: #a0a0a0;
+      }
+    }
+
+    p {
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      color: #010150;
+    }
+
+    .mediaApp {
+      p {
+        color: #404040;
+        padding-bottom: 20px;
+        font-family: "GalanoGrotesque-five";
+      }
+
+      img {
+        display: block;
+        width: 160px;
+        margin-top: 10px;
+      }
+    }
+    .mobile-social-footer {
+      display: none;
+    }
+
+    @media (max-width: 767px) {
+      .sociallinks {
+        display: none;
+      }
+      .mobile-social-footer {
+        display: block;
+      }
+
+      .mainlogo {
+        margin-bottom: 40px;
+
+        img {
+          width: 170px !important;
+        }
+      }
+      .mediaApp {
+        margin: 0 auto;
+        display: table;
+        padding: 20px 0px;
+
+        p {
+          display: none;
+        }
+        img {
+          width: 130px;
+          float: left;
+          margin-right: 10px;
+        }
+      }
+      .mobile-social-footer {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0px 25px;
+
+        h5 {
+          font-size: 14px;
+          font-weight: 500;
+
+          color: #000000;
+          padding-bottom: 10px;
+        }
+        .sociallinks {
+          display: flex;
+          padding: 0;
+        }
+
+        .mainlogo {
+          display: none;
+        }
+      }
+    }
+  }
+}

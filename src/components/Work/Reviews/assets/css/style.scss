@@ -1,0 +1,161 @@
+//styling for Expert
+.reviews {
+  font-family: "GalanoGrotesque";
+  position: relative;
+  margin-bottom: 138px;
+
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    height: 559px;
+    background: #eaf6f8;
+    width: 100%;
+  }
+  .content {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 25px;
+  }
+  .overflow-adjust {
+    margin-top: -115px;
+    @media (max-width: 767px) {
+      margin-top: -90px;
+      p {
+        padding-top: 50px;
+      }
+    }
+  }
+  .reviews-detail {
+    margin-top: -58%;
+    @media screen and (max-width: 991px) {
+      margin: 5% 0;
+    }
+  }
+  .review-img {
+    img {
+      max-width: 100%;
+    }
+    @media screen and (max-width: 767px) {
+    }
+  }
+  .check .review-img {
+    img {
+      max-width: 100%;
+    }
+    @media screen and (max-width: 767px) {
+      position: absolute;
+      right: 0px;
+      max-width: 65%;
+      display: flex;
+      justify-content: flex-end;
+
+      img {
+        margin-right: -15px;
+        max-width: 225px;
+      }
+    }
+    p {
+      padding-top: 20px;
+    }
+  }
+
+  .check {
+    @media screen and (max-width: 767px) {
+      p {
+        padding-top: 70px;
+      }
+    }
+  }
+
+  .check2 .review-img {
+    img {
+      max-width: 100%;
+    }
+    @media screen and (max-width: 767px) {
+      position: absolute;
+      left: -10px;
+
+      display: flex;
+      justify-content: flex-start;
+      max-width: 225px;
+    }
+  }
+  .check2 {
+    @media screen and (max-width: 767px) {
+      padding-top: 40px;
+      .pt-3.col-6 {
+        max-width: 100%;
+        flex: auto;
+        h2 {
+          width: 50%;
+          float: right;
+          padding-left: 30px;
+        }
+
+        p {
+          clear: both;
+          padding-top: 80px;
+        }
+      }
+    }
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #201d67;
+    margin-bottom: 46px;
+    font-family: "GalanoGrotesque-five";
+
+    @media (max-width: 767px) {
+      width: 100%;
+      font-size: 22px;
+      text-align: right;
+      padding-right: 15px;
+      padding-top: 60px;
+    }
+  }
+  .check h2 {
+    @media (max-width: 767px) {
+      width: 40% !important;
+    }
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.55;
+    color: #201d67;
+  }
+  .partner {
+    padding-top: 34px;
+    margin-top: 20px;
+    border-top: 1px solid #dfe4f4;
+    h5 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #2254f0;
+      font-family: "GalanoGrotesque-five";
+    }
+    a {
+      text-decoration: none;
+      border-radius: 30px;
+      background-color: #2254f0;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+    @media (max-width: 767px) {
+      flex-direction: column;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 60px;
+      border-top: none;
+      h5 {
+        padding-bottom: 15px;
+      }
+    }
+  }
+}

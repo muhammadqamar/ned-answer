@@ -1,0 +1,101 @@
+//styling for Accordion
+
+.work-page {
+  .Expertwork {
+    .content a p {
+      display: none;
+    }
+    .content .row .col-12:nth-of-type(2) img {
+      width: 62px;
+    }
+    @media (max-width: 767px) {
+      h1 {
+        font-size: 28px !important;
+      }
+    }
+  }
+}
+.accordion-section {
+  margin-bottom: 175px;
+
+  .content {
+    max-width: 928px;
+    margin: 0 auto;
+    padding: 50px 25px 0px;
+  }
+  .openWindow {
+    display: none;
+  }
+  .opened .openWindow {
+    display: block;
+
+    color: #201d67;
+  }
+  .opened {
+    color: #201d67 !important;
+  }
+  .opened .closeWindow {
+    display: none;
+  }
+
+  .card {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #d4e5e8 !important;
+    padding: 20px 10px 30px 0;
+    &:last-child {
+      border-bottom: 0 !important;
+    }
+  }
+  h2 {
+    opacity: 0.9;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #201d67;
+    margin-bottom: 15px;
+    font-family: "GalanoGrotesque-five";
+  }
+  span {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: #8483a2;
+    display: block;
+    margin-bottom: 80px;
+    font-family: "GalanoGrotesque";
+  }
+  .card-header {
+    padding: 0;
+    background: none;
+    border: none;
+    button {
+      display: flex;
+      width: 100%;
+      text-align: left;
+      justify-content: space-between;
+      padding: 0;
+      font-size: 20px;
+      font-weight: 500;
+      color: #8483a2;
+      text-decoration: none;
+      margin-bottom: 8px;
+      font-family: "GalanoGrotesque-five";
+      svg {
+        width: 18px;
+        flex: 0 0 18px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .card-body {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.44;
+    color: #201d67;
+    font-family: "GalanoGrotesque";
+    padding-top: 15px;
+  }
+}

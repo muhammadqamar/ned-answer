@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "GalanoGrotesque";
+  src: url("../fonts/GalanoGrotesqueAlt-Regular.eot");
+  src: local("Galano Grotesque Alt"),
+    local("../fonts/GalanoGrotesqueAlt-Regular"),
+    url("../fonts/GalanoGrotesqueAlt-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-Regular.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-Regular.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GalanoGrotesque-Bold";
+  src: url("../fonts/GalanoGrotesqueAltDEMO-Bold.eot");
+  src: local("☞Galano Grotesque Alt DEMO Bold"),
+    local("../fonts/GalanoGrotesqueAltDEMO-Bold"),
+    url("../fonts/GalanoGrotesqueAltDEMO-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAltDEMO-Bold.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAltDEMO-Bold.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAltDEMO-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GalanoGrotesque-SemiBold";
+  src: url("../fonts/GalanoGrotesqueAlt-SemiBold.eot");
+  src: local("☞Galano Grotesque Alt SemiBold"),
+    local("../fonts/GalanoGrotesqueAlt-SemiBold"),
+    url("../fonts/GalanoGrotesqueAlt-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-SemiBold.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-SemiBold.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GalanoGrotesque-five";
+  src: url("../fonts/GalanoGrotesque-Medium.eot");
+  src: local("../fonts/Galano Grotesque Medium"),
+    local("../fonts/GalanoGrotesque-Medium"),
+    url("../fonts/GalanoGrotesque-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-Medium.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-Medium.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}

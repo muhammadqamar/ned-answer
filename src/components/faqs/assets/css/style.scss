@@ -1,0 +1,134 @@
+.FAQ {
+  margin-top: 90px;
+  @media (max-width: 991px) {
+    margin-top: 65px;
+  }
+  font-family: "GalanoGrotesque";
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 65px 25px !important;
+  }
+  .nav.nav-tabs {
+    width: 25%;
+
+    float: left;
+  }
+
+  .heaidng {
+    h1 {
+      font-size: 40px;
+
+      text-align: center;
+      color: #303f71;
+      max-width: 540px;
+      margin: 0 auto;
+    }
+
+    p {
+      max-width: 871px;
+      padding: 30px 0px 70px;
+      font-size: 16px;
+
+      text-align: center;
+      color: #283465;
+      margin: 0 auto;
+    }
+  }
+
+  .nav-tabs .nav-link,
+  .nav-tabs {
+    border: none !important;
+    display: block;
+    a {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: "GalanoGrotesque-five";
+      color: #8b9cbf;
+      text-transform: capitalize;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-top: 20px;
+    }
+    &:active {
+      color: #2355f0;
+    }
+  }
+  .nav-link.active {
+    color: #2355f0 !important;
+    border-bottom: 2px solid #2355f0 !important;
+    width: fit-content;
+  }
+  .nav-link.active:nth-of-type(2) {
+    color: #ee503a !important;
+    border-bottom: 2px solid #ee503a !important;
+    width: fit-content;
+  }
+
+  .tab-content {
+    width: 75%;
+    float: left;
+  }
+  .MuiPaper-root {
+    border-radius: 13px;
+    background-color: #f1f6f9;
+    padding: 20px;
+    border: none !important;
+    margin-bottom: 30px;
+    box-shadow: none;
+  }
+  .MuiExpansionPanel-root:before {
+    background-color: transparent;
+  }
+  .MuiExpansionPanelSummary-content p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "GalanoGrotesque-five";
+
+    color: #516696;
+    width: 100%;
+    flex-basis: 100%;
+  }
+  .MuiExpansionPanelDetails-root p {
+    font-size: 15px;
+
+    color: #44598a;
+  }
+  svg {
+    color: #2254f0;
+    font-size: 37px;
+  }
+
+  @media (max-width: 991px) {
+    .CreateAccount {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .heaidng p {
+      font-size: 15px;
+    }
+    .heaidng h1 {
+      font-size: 22px;
+    }
+    .nav.nav-tabs,
+    .tab-content {
+      width: 100%;
+      float: left;
+    }
+    .nav-link {
+      display: inline-block !important;
+      margin-bottom: 20px;
+      margin-right: 25px !important;
+      font-size: 16px !important;
+    }
+    .MuiExpansionPanelSummary-content p {
+      font-size: 15px;
+    }
+    .MuiPaper-root {
+      padding: 0px;
+    }
+    font-family: "GalanoGrotesque-five";
+  }
+}

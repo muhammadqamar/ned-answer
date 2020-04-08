@@ -1,0 +1,54 @@
+//styling for join
+.joinForFree {
+  clear: both;
+  background-color: #2254f0;
+
+  .content {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 110px 20px 130px;
+
+    @media (max-width: 767px) {
+      padding: 50px 20px 50px;
+    }
+
+    h1 {
+      font-size: 40px;
+      line-height: 1.45;
+      letter-spacing: normal;
+      color: #fff;
+      font-weight: 400;
+      max-width: 800px;
+      margin: 0 auto;
+      font-family: "GalanoGrotesque";
+    }
+
+    button {
+      border-radius: 30px;
+      background-color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: normal;
+      color: #283465;
+      border: none;
+      padding: 10px 30px;
+      margin-top: 30px;
+      font-family: "GalanoGrotesque-SemiBold";
+    }
+
+    @media (max-width: 767px) {
+      h1 {
+        font-size: 18px;
+        line-height: 1.45;
+        letter-spacing: normal;
+        color: #ffffff;
+        font-weight: 400;
+        padding: 0px 35px;
+      }
+      button {
+        padding: 10px 50px;
+      }
+    }
+  }
+}

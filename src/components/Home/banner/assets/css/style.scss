@@ -1,0 +1,118 @@
+//styling for join
+
+.mainHome {
+  margin-top: 90px;
+
+  @media (max-width: 991px) {
+    margin-top: 65px;
+  }
+  .banner {
+    font-family: "GalanoGrotesque";
+    .content {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 80px 15px 100px;
+
+      @media (max-width: 991px) {
+        padding: 30px 15px 25px;
+      }
+      @media (max-width: 767px) {
+        border-bottom: 1px solid #ccc;
+      }
+
+      h1 {
+        font-size: 40px;
+        font-weight: 400;
+        color: #283465;
+      }
+
+      .intro-text {
+        padding: 50px 0px 40px;
+      }
+
+      h2 {
+        color: #283465;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 30px 0px;
+      }
+
+      .buttons-all {
+        display: flex;
+
+        button {
+          border-radius: 30px;
+          background-color: #2355f0;
+          font-size: 16px;
+          font-weight: bold;
+          letter-spacing: normal;
+          color: #ffffff;
+          border: none;
+          padding: 10px 20px;
+          font-family: "GalanoGrotesque-SemiBold";
+        }
+
+        span {
+          font-size: 10px;
+          font-weight: 500;
+
+          color: #535353;
+          padding: 14px 20px;
+        }
+
+        img {
+          width: 135px;
+          height: 40px;
+          margin-right: 10px;
+        }
+      }
+
+      .supporBannerImg {
+        position: relative;
+
+        img.desktop {
+          width: auto;
+          height: 100%;
+        }
+
+        img.mobile {
+          position: absolute;
+          bottom: -55px;
+          right: 70px;
+          width: auto;
+          height: 100%;
+        }
+      }
+      .dsiplayforsmall {
+        display: none;
+      }
+
+      @media (max-width: 767px) {
+        .buttons-all button {
+          padding: 10px 30px;
+        }
+        h1 {
+          font-size: 30px;
+        }
+        .supporBannerImg {
+          display: none;
+        }
+
+        .dsiplayforsmall {
+          display: block;
+          margin: 0 auto 40px;
+        }
+        .buttons-all {
+          margin: 0 auto;
+          display: table;
+          text-align: center;
+
+          a,
+          span {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

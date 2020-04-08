@@ -1,0 +1,26 @@
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+  button {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #dfecf3;
+    font-size: 15px;
+    font-weight: 500;
+
+    color: #2355f0;
+    border: none;
+    width: 117px;
+    height: 32px;
+    padding-top: 0px;
+  }
+
+  .connect {
+    a {
+      color: #fff;
+    }
+    background-color: #2355f0;
+  }
+}

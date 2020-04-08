@@ -1,0 +1,183 @@
+//styling for gallery
+.gallery {
+  height: 100%;
+  font-family: "GalanoGrotesque-five";
+
+  .dual-img {
+    display: flex;
+
+    img {
+      float: left;
+      width: 50%;
+    }
+
+    .path-text {
+      background: #1dcce9;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 40px 80px;
+
+      h3 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: CircularStd;
+      }
+
+      h5 {
+        font-size: 21px;
+        font-weight: 500;
+
+        line-height: 1.43;
+
+        color: #ffffff;
+        font-weight: 400;
+        margin-top: 30px;
+      }
+
+      button {
+        border-radius: 30px;
+        background-color: #2355f0;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: normal;
+        color: #ffffff;
+        border: none;
+        padding: 10px 30px;
+        margin-top: 80px;
+      }
+    }
+  }
+
+  .Single-img {
+    background-image: url("../images/Web-Development.png");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding: 150px 0px;
+    box-shadow: #4e4e4e94 0 0 0px 330px inset;
+
+    img {
+      width: 100%;
+    }
+
+    .abs-path {
+      width: 40%;
+      padding: 0px 70px;
+      float: right;
+    }
+    h3 {
+      font-size: 40px;
+      font-weight: 600;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "GalanoGrotesque-SemiBold";
+    }
+
+    h5 {
+      font-size: 21px;
+      font-weight: 300;
+
+      line-height: 1.43;
+
+      color: #ffffff;
+
+      margin: 40px 0px 60px;
+      font-family: "GalanoGrotesque";
+    }
+
+    a {
+      font-size: 20px;
+
+      color: #ffffff;
+      font-weight: 300;
+      font-family: "GalanoGrotesque";
+      padding-bottom: 5px;
+      border-bottom: 1px solid #ccc;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    .dual-img {
+      flex-direction: column;
+      img {
+        width: 100%;
+      }
+      .path-text {
+        padding: 50px 30px;
+      }
+    }
+
+    .abs-path {
+      width: 100% !important;
+      padding: 0px 70px;
+    }
+
+    .abs-path {
+      width: 40%;
+      padding: 0px 70px;
+      float: right;
+    }
+  }
+  @media (max-width: 767px) {
+    .Single-img {
+      padding: 90px 0px 40px;
+
+      .abs-path {
+        padding: 0px 30px;
+      }
+      h5 {
+        margin: 10px 0px 20px;
+      }
+
+      a {
+        font-size: 16px;
+        padding-bottom: 15px;
+      }
+    }
+    .dual-img {
+      flex-direction: column;
+      img {
+        width: 100%;
+      }
+      h5 {
+        margin-top: 0px !important;
+        font-family: "GalanoGrotesque";
+      }
+
+      .path-text {
+        padding: 50px 30px;
+      }
+    }
+
+    .abs-path {
+      width: 100% !important;
+      padding: 0px 70px;
+    }
+
+    .abs-path {
+      width: 40%;
+      padding: 0px 70px;
+      float: right;
+    }
+    h3 {
+      font-size: 20px !important;
+    }
+
+    h5 {
+      font-size: 14px !important;
+    }
+
+    a {
+      button {
+        margin-top: 20px !important ;
+        padding: 10px 50px !important;
+      }
+    }
+  }
+}
